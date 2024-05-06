@@ -54,7 +54,7 @@ function BooksPage() {
     };
 
     return (
-        <div style={{ border: '2px solid red' }}>
+        <div>
             <AppBar
                 position="static"
                 sx={{

@@ -51,7 +51,7 @@ export interface DeleteBookRequest {
 
 export const api = createApi({
     baseQuery: fetchBaseQuery({
-        baseUrl: process.env.BACKEND_URL || 'https://no23.lavina.tech/'
+        baseUrl: process.env.BACKEND_URL
     }),
     tagTypes: ['books'],
     endpoints: (builder) => ({
